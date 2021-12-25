@@ -196,6 +196,7 @@ main(int argc, char **argv)
 					"SXC : Sexcoin : R or S\n"
 					"TPC : Templecoin : T\n"
 					"TUX : Tuxcoin : T\n"
+					"TDC : Tidecoin : T\n"
 					"UIS : Unitus : U\n"
 					"UNO : Unobtanium : u\n"
 					"VIA : Viacoin : V\n"
@@ -1189,6 +1190,14 @@ main(int argc, char **argv)
 				fprintf(stderr,
 					"Decrypting TUX Address\n");
 					addrtype_opt = 65;
+					privtype_opt = 193;
+					break;
+                        }
+			else
+			if (strcmp(optarg, "TDC")== 0) {
+				fprintf(stderr,
+					"Decrypting TDC Address\n");
+					addrtype_opt = 125;
 					privtype_opt = 193;
 					break;
                         }
