@@ -1197,7 +1197,7 @@ main(int argc, char **argv)
 			if (strcmp(optarg, "TDC")== 0) {
 				fprintf(stderr,
 					"Decrypting TDC Address\n");
-					addrtype_opt = 125;
+					addrtype_opt = 65;
 					privtype_opt = 193;
 					break;
                         }
