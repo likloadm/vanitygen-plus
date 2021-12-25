@@ -239,6 +239,7 @@ Current List of Available Coins for Address Generation
 |SXC | Sexcoin | R or S  |
 |TPC | Templecoin | T  |
 |TUX | Tuxcoin | T  |
+|TDC | Tidecoin | T  |
 |UIS | Unitus | U  |
 |UNO | Unobtanium | u  |
 |VIA | Viacoin | V  |
