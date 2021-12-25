@@ -31,8 +31,9 @@
 
 #include "pattern.h"
 #include "util.h"
-
+#include "api.h"
 #include "ticker.h"
+
 char ticker[10];
 
 int GRSFlag = 0;
